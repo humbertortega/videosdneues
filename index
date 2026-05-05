@@ -1,87 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>18+</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Videos</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #f3f3f3;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            padding: 20px;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        .video-thumbnails {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-        .video-thumbnail {
-            width: 45%;
-            margin: 10px;
-            position: relative;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .video-thumbnail img {
-            width: 100%;
-            transition: transform 0.3s;
-        }
-        .video-thumbnail:hover img {
-            transform: scale(1.1);
-        }
-        .play-button {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 50px;
-            height: 50px;
-            background: rgba(255,255,255,0.8);
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .play-button img {
-            width: 60%;
-        }
-    </style>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play::after {
+    content: "?";
+    font-size: 24px;
+    color: #000;
+}
+</style>
 </head>
 
 <body>
 
 <div class="container">
-    <h1>?? CLICK ONLY IF YOU ARE 18+ ??</h1>
+    <h1>?? Trending Videos ??</h1>
 
-    <div class="video-thumbnails">
+    <div class="grid">
 
-        <!-- VIDEO ITEM -->
-        <a class="video-thumbnail" href="https://filletfiguredconstrain.com/cxv8mfa026?key=b7853e77430542fdf19eb464fd1de23b" target="_blank">
+        <a href="https://filletfiguredconstrain.com/cxv8mfa026?key=b7853e77430542fdf19eb464fd1de23b" target="_blank" class="card">
             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgttDaOxUO17Ym78w21NjmqDKrcARm2qf24xVZamzBfcVzxYcJmYM3o61aLGpgFyuaCHIRmicOzaydgC-npyLNhVzd8PvgZBauWzCFJ9ixyiXYLgE4pQgGrazImunGWJoQ4fVNOfO5CCZ1_BHKtjSZMfPU_i5uTEWYR5OavXymCu0hQzWF7qtVTXIgfJOPS/w640-h360/Screenshot_31.png">
-            <div class="play-button">
-                <img src="https://www.youtube.com/s/desktop/a669eefe/img/favicon_32x32.png">
-            </div>
+            <div class="play"></div>
         </a>
 
-        <a class="video-thumbnail" href="https://filletfiguredconstrain.com/cxv8mfa026?key=b7853e77430542fdf19eb464fd1de23b" target="_blank">
+        <a href="https://filletfiguredconstrain.com/cxv8mfa026?key=b7853e77430542fdf19eb464fd1de23b" target="_blank" class="card">
             <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlQmgtnhc17Ym78w21NjmqDKrcARm2qf24xVZamzBfclGOSjznPDg4dnagR0CzfROFK65RcEQs7g3tUJZ1ZYzp2E5_wqOmEozLfvg0-6N1Rcofx4if1uBrnIGPjLaJ7aEJvRhXisNw_zwfBnPY537h_bSFpeXinnWaJe3YNGgYTCvoFqL1HtTbvnNRX6O6/w640-h356/Screenshot_30.png">
-            <div class="play-button">
-                <img src="https://www.youtube.com/s/desktop/a669eefe/img/favicon_32x32.png">
-            </div>
+            <div class="play"></div>
         </a>
 
-        <!-- Puedes duplicar este bloque para más videos -->
+        <a href="https://filletfiguredconstrain.com/cxv8mfa026?key=b7853e77430542fdf19eb464fd1de23b" target="_blank" class="card">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ3Qh68xoAgyTNejDIccTehMrHY_fNFAOO90GcWEc3XqIy6ff8l7ig1kXKhPwZwRpAL8iUOG-X2kGJWsbDhry1fNV2PHK_Q4ENTBm5VQsN49N7pUaqjvova8jowYFti5NwzLXtF0s7dqmuT3DOfR73CBvK4gtGWKxBxgEWhB42OkL0n-TjEuNI-sCclTeo/w640-h358/Screenshot_29.png">
+            <div class="play"></div>
+        </a>
 
     </div>
 </div>
